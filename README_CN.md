@@ -1,11 +1,10 @@
 # cjson-qt-wrapper
 
-Refer to the JSON class interface of QT to encapsulate cjson, so that JSON classes can be easily used in non QT environments.
-Its usage is basically the same as that of the JSON class of QT.
+参考QT的JSON类接口来封装cjson，以便在非QT环境中有方便使用的JSON类。其用法与Qt的JSON类的用法基本相同。
 
-# example
+# 例子
 
-Examples of the same usage as QT JSON
+与Qt json相同用法的例子
 
 ```
     {
@@ -17,7 +16,7 @@ Examples of the same usage as QT JSON
         cout << JsonDocument(rootObject).toJson() << endl;
     }
 ```
-Printout
+打印输出
 
 ```
 {
@@ -27,7 +26,7 @@ Printout
 
 ```
 
-Functions that Qt JSON does not have, elegant creation of multi-layer JSON
+Qt json所没有的功能，多层json的优雅创建
 
 ```
     {
@@ -38,7 +37,7 @@ Functions that Qt JSON does not have, elegant creation of multi-layer JSON
         cout << JsonDocument(rootObject).toJson() << endl;
     }
 ```
-Printout
+打印输出
 
 ```
 {
